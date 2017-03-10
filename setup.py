@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from distutils.core import setup
 LONGDOC = """
-Please go to https://github.com/someus/TextRank4ZH for more info.
+Please go to https://github.com/zwhinmedia/TextRank for more info.
 """
 
 setup(
@@ -9,9 +9,9 @@ setup(
     version='0.3',
     description='Extract keywords and abstract Chinese article',
     long_description=LONGDOC,
-    author='Letian Sun',
-    author_email='sunlt1699@gmail.com',
-    url='https://github.com/someus/TextRank4ZH',
+    author='Weihao Zhou',
+    author_email='zwh14@mails.tsinghua.edu.cn',
+    url='https://github.com/zwhinmedia/TextRank',
     license="MIT",
     classifiers=[
         'Intended Audience :: Developers',

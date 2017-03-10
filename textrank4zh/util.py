@@ -1,8 +1,7 @@
 #-*- encoding:utf-8 -*-
 """
-@author:   letian
-@homepage: http://www.letiantian.me
-@github:   https://github.com/someus/
+@author:   Weihao Zhou
+@github:   https://github.com/zwhinmedia/
 """
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
@@ -19,6 +18,7 @@ try:
 except:
     pass
     
+#sentence_delimiters = ['?', '!', ';', '？', '！', '。', '；', '……', '…','】','【','\n']
 sentence_delimiters = ['?', '!', ';', '？', '！', '。', '；', '……', '…','】','【','\n']
 allow_speech_tags = ['an', 'i', 'j', 'l', 'n', 'nr', 'nrfg', 'ns', 'nt', 'nz', 't', 'v', 'vd', 'vn', 'eng']
 
